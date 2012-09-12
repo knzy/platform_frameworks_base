@@ -2070,6 +2070,12 @@ public final class Settings {
         public static final String ADB_ENABLED = Secure.ADB_ENABLED;
 
         /**
+         * Whether to show the IME switcher in the status bar
+         * @hide
+         */
+        public static final String STATUS_BAR_IME_SWITCHER = "status_bar_ime_switcher";
+
+        /**
          * @deprecated Use {@link android.provider.Settings.Secure#ANDROID_ID} instead
          */
         @Deprecated
